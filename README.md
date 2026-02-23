@@ -3,7 +3,8 @@
 Predicting lumber kiln drying outcomes (final moisture content, drying time, energy) for **Spruce-Pine-Fir (SPF)** lumber in Drayton Valley, AB.
 
 - **Dataset:** 1,000 synthetic runs (physics-based, USDA FPL-GTR-57)
-- **Train/Test split:** 80% / 20% (stratified on NLGA compliance)
+- **Train/Test split:** 80% / 20% (stratified on NLGA compliance to preserve class distribution)
+(Synthetic Dataset created using Fick's Law Drying physics + Siau EMC + Arrhenius diffusion, contact for script)
 
 ### Quick Start
 
