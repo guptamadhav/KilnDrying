@@ -4,7 +4,6 @@ Predicting lumber kiln drying outcomes (final moisture content, drying time, ene
 
 - **Dataset:** 1,000 synthetic runs (physics-based, USDA FPL-GTR-57)
 - **Train/Test split:** 80% / 20% (stratified on NLGA compliance to preserve class distribution)
-(Synthetic Dataset created using Fick's Law Drying physics + Siau EMC + Arrhenius diffusion, contact for script)
 
 ### Quick Start
 
@@ -125,7 +124,8 @@ Predicting lumber kiln drying outcomes (final moisture content, drying time, ene
 | 8 | Species | 0.0015 |
 
 ---
-
+Synthetic Dataset created using Fick's Law Drying physics + Siau EMC + Arrhenius diffusion, contact me @madhav75gupta@gmail.com for the script
+---
 ## References
 
 - **Physics:** USDA [FPL-GTR-57](https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr57.pdf) (kiln schedules), Siau (1984), Fick's Law
